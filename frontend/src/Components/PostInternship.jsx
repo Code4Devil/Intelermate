@@ -15,6 +15,7 @@ const PostInternship = () => {
   });
 
   const [errors, setErrors] = useState({});
+  const [loading, setLoading] = useState(false); // Add loading state
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -38,6 +39,7 @@ const PostInternship = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (validateForm()) {
+      setLoading(true); // Set loading to true
       try {
         const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/founders`, formData);
         if (response.status === 201) {
@@ -59,6 +61,8 @@ const PostInternship = () => {
       } catch (error) {
         console.error('Error submitting form:', error);
         alert('An error occurred. Please try again.');
+      } finally {
+        setLoading(false); // Set loading to false
       }
     } else {
       alert('Please fill in all required fields.');
@@ -202,8 +206,8 @@ const PostInternship = () => {
           </div>
 
           <div className="mt-8 text-center">
-            <button type="submit" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-300">
-              Submit Internship
+            <button type="submit" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-300" disabled={loading}>
+              {loading ? 'Submitting...' : 'Submit Internship'}
             </button>
           </div>
         </form>

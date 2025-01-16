@@ -12,6 +12,7 @@ const Internform = () => {
     resume: null,
     coverLetter: ''
   });
+  const [loading, setLoading] = useState(false); // Add loading state
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -30,6 +31,7 @@ const Internform = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true); // Set loading to true
 
     const data = new FormData();
     data.append('firstName', formData.firstName);
@@ -64,7 +66,9 @@ const Internform = () => {
       }
     } catch (error) {
       console.error('Error submitting form:', error);
-      alert('An error occurred. Please try again.');
+      alert('An error occurred. Please refresh the page and try again or reopen the website.');
+    } finally {
+      setLoading(false); // Set loading to false after response
     }
   };
 
@@ -135,8 +139,8 @@ const Internform = () => {
             </div>
 
             <div className="mt-8 text-center" id="el-lik9zh5s">
-              <button type="submit" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-300 animate__animated animate__pulse animate__infinite" id="el-avdtbadv">
-                Submit Application
+              <button type="submit" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-300 animate__animated animate__pulse animate__infinite" id="el-avdtbadv" disabled={loading}>
+                {loading ? 'Submitting...' : 'Submit Application'}
               </button>
             </div>
           </form>
