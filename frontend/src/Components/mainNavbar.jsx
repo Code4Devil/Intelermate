@@ -11,6 +11,7 @@ const Links = [
     { hi: 'Services', a: '#services' },
     { hi: 'Explore', a: '#explore' },
     { hi: 'Contact', a: '#contact' }
+    
 ];
 
 
@@ -65,6 +66,10 @@ useGSAP(
                        <a key={index} href={item.a}>{item.hi}</a>
                     ))
                 }
+
+                <a href="/head" >Admin</a>
+
+                
             
             </div>
         </div>
@@ -83,6 +88,8 @@ useGSAP(
                        <a key={index} href={item.a}>{item.hi}</a>
                     ))
                 }
+
+            <a>Admin</a>
 
         </div>
 
