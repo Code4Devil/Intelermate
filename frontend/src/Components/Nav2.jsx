@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../logo/logo.png'
 
-const Navbar2 = () => {
+const Nav2 = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -50,4 +50,4 @@ const Navbar2 = () => {
   );
 };
 
-export default Navbar2;
+export default Nav2;

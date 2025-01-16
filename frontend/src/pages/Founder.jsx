@@ -1,12 +1,12 @@
 import React from 'react'
 import { useEffect } from 'react'
-import Navbar2 from '../Components/Navbar2'
+import Nav2 from '../Components/Nav2'
 import FounderLanding from '../Components/FounderLanding'
 import Whyus from '../Components/whyus'
 import PostInternship from '../Components/PostInternship'
 import Benifits from '../Components/Benifits'
 import Requirments from '../Components/Requirments'
-import Footer2 from './Footer2'
+import Foot2 from './Foot2'
 
 
 const Founder = () => {
@@ -19,13 +19,13 @@ const Founder = () => {
 
   return (
     <div>
-      <Navbar2 />
+      <Nav2 />
       <FounderLanding />
       <Whyus />
       <PostInternship />
       <Benifits />
       <Requirments />
-      <Footer2 />
+      <Foot2 />
     </div>
   )
 }

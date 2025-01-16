@@ -5,7 +5,7 @@ import Positions from './Positions';
 import Internform from './Internform';
 import InternshipRequirments from './InternshipRequirments';
 import Perks from './Perks';
-import Footer2 from './Footer2';
+import Foot2 from './Foot2';
 import Navbar from '../components/Navbar';
 import InternNav from '../Components/InternNav';
 
@@ -23,7 +23,7 @@ const InternPage = () => {
       <Internform />
       <InternshipRequirments />
       <Perks />
-      <Footer2 />
+      <Foot2 />
     </div>
   );
 };

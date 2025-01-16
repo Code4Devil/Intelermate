@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Footer2 = () => {
+const Foot2 = () => {
   return (
     <div className='flex items-center justify-between w-full'>
       <footer id="footer" className="bg-neutral-900 text-white pt-16 pb-8 w-full">
@@ -56,4 +56,4 @@ const Footer2 = () => {
   );
 };
 
-export default Footer2;
+export default Foot2;
