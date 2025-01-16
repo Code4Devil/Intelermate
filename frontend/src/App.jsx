@@ -1,7 +1,5 @@
 import React from 'react'
-import mainNavbar from './Components/mainNavbar'
 import { Route, Routes } from 'react-router-dom'
-import Mainpage from './pages/mainpage'
 import Landingpage from './pages/Landingpage'
 import InternPage from './pages/InternPage'
 import Founder from './pages/Founder'
