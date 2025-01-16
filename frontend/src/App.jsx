@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Landingpage from './pages/Landingpage'
+import Landingpage from './pages/LandingPage'
 import InternPage from './pages/InternPage'
 import Founder from './pages/Founder'
 import Admin from './pages/Admin'

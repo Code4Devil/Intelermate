@@ -7,7 +7,6 @@ import Successstories from './Successstories'
 import GetinTouch from './GetinTouch'
 import Footer from './Footer'
 import mainNavbar from '../Components/mainNavbar'
-
 const Landingpage = () => {
 
   useEffect(() => {
