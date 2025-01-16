@@ -6,7 +6,6 @@ import Internform from './Internform';
 import InternshipRequirments from './InternshipRequirments';
 import Perks from './Perks';
 import Foot2 from './Foot2';
-import mainNavbar from '../Components/mainNavbar';
 import InternNav from '../Components/InternNav';
 
 const InternPage = () => {
