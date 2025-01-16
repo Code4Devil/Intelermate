@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Mainpage from './mainpage'
+import Mainpage from './Mainpage'
 import Secondpage from './Secondpage'
 import Thirdpage from './Thirdpage'
 import Fourthpage from './Fourthpage'
