@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Founders;
+  src: url(../src/fonts/FoundersGrotesk-Semibold.woff);
+}
+
+@font-face {
+  font-family: gilroy;
+  src: url(../src/fonts/Gilroy-ExtraBold.otf);
+}
