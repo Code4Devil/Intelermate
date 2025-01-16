@@ -51,7 +51,7 @@ const InternPage1 = () => {
       <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 animate-bounce" id="el-vxiylp29">
         <a href="#about" className="text-white" id="el-prreiffz">
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" id="el-1a4u3wz3">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" id="el-htipof8t"></path>
+            <path strokelinecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" id="el-htipof8t"></path>
           </svg>
         </a>
       </div>

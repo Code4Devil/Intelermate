@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 
 const Internform = () => {
   const [formData, setFormData] = useState({
@@ -41,12 +42,12 @@ const Internform = () => {
     data.append('coverLetter', formData.coverLetter);
 
     try {
-      const response = await fetch('http://localhost:5000/api/interns', {
-        method: 'POST',
-        body: data
+      const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/interns`, data, {
+        headers: {
+          'Content-Type': 'multipart/form-data'
+        }
       });
-
-      if (response.ok) {
+      if (response.status === 201) {
         alert('Thank you for your application! We will get back to you soon.');
         setFormData({
           firstName: '',

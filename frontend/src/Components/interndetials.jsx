@@ -1,40 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import React from 'react';
 
-const InternDetails = () => {
-
-  useEffect(() => {
-    fetch('/api/interns')
-      .then(response => response.json())
-      .then(data => setInterns(data))
-      .catch(error => console.error('Error fetching interns:', error));
-
-    fetch('/api/founders')
-      .then(response => response.json())
-      .then(data => setFounders(data))
-      .catch(error => console.error('Error fetching founders:', error));
-  }, []);
-
-  const { id } = useParams();
-  const [intern, setIntern] = useState(null);
-
-  useEffect(() => {
-    const fetchInternData = async () => {
-      try {
-        const response = await fetch(`http://localhost:5000/api/interns/${id}`);
-        if (!response.ok) {
-          throw new Error('Intern not found');
-        }
-        const data = await response.json();
-        setIntern(data);
-      } catch (error) {
-        console.error('Error fetching intern data:', error);
-      }
-    };
-
-    fetchInternData();
-  }, [id]);
-
+const InternDetails = ({ intern }) => {
   if (!intern) {
     return <div>Loading...</div>;
   }
@@ -51,10 +17,7 @@ const InternDetails = () => {
           </button>
           <h2 className="text-lg font-semibold" id="el-2khsp5p8">Intern Details</h2>
         </div>
-        <div className="flex space-x-3" id="el-bx1pfq7y">
-          <button className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600" id="el-lk9pgxgc">Edit</button>
-          <button className="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600" id="el-f7emoot3">Delete</button>
-        </div>
+       
       </div>
 
       <div className="p-6" id="el-9w79t6i7">

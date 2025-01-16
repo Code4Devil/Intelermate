@@ -21,4 +21,16 @@ router.get('/', async (req, res) => {
   }
 });
 
+router.get('/:id', async (req, res) => {
+  try {
+    const founder = await Founder.findById(req.params.id);
+    if (!founder) {
+      return res.status(404).json({ message: 'Founder not found' });
+    }
+    res.status(200).json(founder);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
+
 module.exports = router;

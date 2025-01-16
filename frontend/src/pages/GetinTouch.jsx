@@ -61,7 +61,7 @@ const GetinTouch = () => {
                       </div>
                       <div>
                         <h4 className="text-white font-semibold">Phone</h4>
-                        <p className="text-gray-300">+1 (123) 456-7890</p>
+                        <p className="text-gray-300">+91 9255663330</p>
                       </div>
                     </div>
 
@@ -73,32 +73,21 @@ const GetinTouch = () => {
                       </div>
                       <div>
                         <h4 className="text-white font-semibold">Email</h4>
-                        <p className="text-gray-300">contact@intelermate.tech</p>
+                        <p className="text-gray-300">itsinnocentzero@gmail.com</p>
                       </div>
                     </div>
 
-                    <div className="flex items-start space-x-4">
-                      <div className="bg-green-600 p-3 rounded-lg">
-                        <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                        </svg>
-                      </div>
-                      <div>
-                        <h4 className="text-white font-semibold">Location</h4>
-                        <p className="text-gray-300">Silicon Valley, CA</p>
-                      </div>
-                    </div>
+                    
                   </div>
 
                   {/* Social Media Links */}
                   <div className="mt-8 pt-8 border-t border-neutral-700">
                     <h4 className="text-white font-semibold mb-4">Follow Us</h4>
                     <div className="flex space-x-4">
-                      <a href="#" className="bg-neutral-700 p-3 rounded-lg hover:bg-neutral-600 transition-colors duration-300">
+                      <a href="https://www.linkedin.com/company/intelermate/?viewAsMember=true" className="bg-neutral-700 p-3 rounded-lg hover:bg-neutral-600 transition-colors duration-300">
                         <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn" className="w-6 h-6 transition-opacity duration-300 opacity-100" loading="lazy" />
                       </a>
-                      <a href="#" className="bg-neutral-700 p-3 rounded-lg hover:bg-neutral-600 transition-colors duration-300">
+                      <a href="https://www.instagram.com/intelermate.tech/" className="bg-neutral-700 p-3 rounded-lg hover:bg-neutral-600 transition-colors duration-300">
                         <img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" alt="Instagram" className="w-6 h-6 transition-opacity duration-300 opacity-100" loading="lazy" />
                       </a>
                     </div>

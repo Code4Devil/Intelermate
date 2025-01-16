@@ -24,7 +24,7 @@ useGSAP(
     function () {
       if (panel) {
         gsap.to(Navpanel.current, {
-            transform: 'translateY(160%)',
+            transform: 'translateY(174%)',
          
         });
        
@@ -39,7 +39,7 @@ useGSAP(
     [panel]
   );
 
-  console.log(panel)
+  // console.log(panel)
 
 
 

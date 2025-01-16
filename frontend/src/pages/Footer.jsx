@@ -14,10 +14,10 @@ const Footer = () => {
               </div>
               <p className="text-gray-400">Where Curiosity Meets Opportunity. Connecting talented students with innovative startups.</p>
               <div className="flex space-x-4">
-                <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
+                <a href="https://www.linkedin.com/company/intelermate/?viewAsMember=true" className="text-gray-400 hover:text-white transition-colors duration-300">
                   <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn" className="w-6 h-6 transition-opacity duration-300 opacity-100" loading="lazy" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
+                <a href="https://www.instagram.com/intelermate.tech/" className="text-gray-400 hover:text-white transition-colors duration-300">
                   <img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" alt="Instagram" className="w-6 h-6 transition-opacity duration-300 opacity-100" loading="lazy" />
                 </a>
               </div>

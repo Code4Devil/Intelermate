@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const AdminNav = () => {
-  const [interns, setInterns] = useState([]);
-  const [founders, setFounders] = useState([]);
+  
 
  
 
@@ -31,25 +30,7 @@ const AdminNav = () => {
         </div>
       </nav>
 
-      <div className="sm:ml-[20%] p-4">
-        <h2 className="font-bold text-2xl mb-4">Interns</h2>
-        <ul>
-          {interns.map(intern => (
-            <li key={intern._id}>
-              {intern.firstName} {intern.lastName} - {intern.position}
-            </li>
-          ))}
-        </ul>
-
-        <h2 className="font-bold text-2xl mt-8 mb-4">Founders</h2>
-        <ul>
-          {founders.map(founder => (
-            <li key={founder._id}>
-              {founder.companyName} - {founder.founderName}
-            </li>
-          ))}
-        </ul>
-      </div>
+     
     </div>
   );
 };

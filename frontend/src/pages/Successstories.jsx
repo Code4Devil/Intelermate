@@ -22,7 +22,7 @@ const Successstories = () => {
                 </div>
                 <p className="text-gray-300 mb-6">"Found my dream internship through Intelermate. The platform made it incredibly easy to connect with innovative startups!"</p>
                 <div className="border-t border-neutral-700 pt-4">
-                  <h4 className="text-white font-semibold">Sarah Johnson</h4>
+                  <h4 className="text-white font-semibold">Anshika rawat</h4>
                   <p className="text-gray-400">Frontend Developer Intern</p>
                 </div>
               </div>
@@ -36,7 +36,7 @@ const Successstories = () => {
                 </div>
                 <p className="text-gray-300 mb-6">"Intelermate connected me with a startup that perfectly matched my skills and interests. Highly recommend!"</p>
                 <div className="border-t border-neutral-700 pt-4">
-                  <h4 className="text-white font-semibold">John Doe</h4>
+                  <h4 className="text-white font-semibold">Mehakdeep Kaur</h4>
                   <p className="text-gray-400">Backend Developer Intern</p>
                 </div>
               </div>
@@ -50,8 +50,8 @@ const Successstories = () => {
                 </div>
                 <p className="text-gray-300 mb-6">"Thanks to Intelermate, I gained invaluable experience and landed a full-time job after my internship!"</p>
                 <div className="border-t border-neutral-700 pt-4">
-                  <h4 className="text-white font-semibold">Emily Smith</h4>
-                  <p className="text-gray-400">Data Scientist Intern</p>
+                  <h4 className="text-white font-semibold">Harshit Aggarwal</h4>
+                  <p className="text-gray-400">UI/UX designer Intern</p>
                 </div>
               </div>
             </div>
