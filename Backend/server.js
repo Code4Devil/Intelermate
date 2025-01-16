@@ -21,8 +21,8 @@ db.once('open', () => {
   console.log('Connected to MongoDB');
 });
 
-const internsRouter = require('./routes/interns');
-const foundersRouter = require('./routes/founders');
+const internsRouter = require('./interns');
+const foundersRouter = require('./founders');
 // chal ja bhai
 
 
