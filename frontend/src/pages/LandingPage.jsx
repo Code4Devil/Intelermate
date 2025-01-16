@@ -6,7 +6,7 @@ import Fourthpage from './Fourthpage'
 import Successstories from './Successstories'
 import GetinTouch from './GetinTouch'
 import Footer from './Footer'
-import Navbar from '../components/Navbar'
+import mainNavbar from '../Components/mainNavbar'
 
 const Landingpage = () => {
 
@@ -17,7 +17,7 @@ const Landingpage = () => {
 
   return (
     <div> 
-      <Navbar />
+      <mainNavbar />
         <Mainpage />
         <Secondpage />
         <Thirdpage />

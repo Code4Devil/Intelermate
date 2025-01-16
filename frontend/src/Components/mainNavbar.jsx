@@ -15,7 +15,7 @@ const Links = [
 
 
 
-const Navbar = () => {
+const mainNavbar = () => {
 
 const Navpanel = useRef(null)
 const [panel, setPanel] = useState(false)
@@ -90,4 +90,4 @@ useGSAP(
   )
 }
 
-export default Navbar
+export default mainNavbar
