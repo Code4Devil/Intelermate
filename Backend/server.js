@@ -21,13 +21,13 @@ db.once('open', () => {
   console.log('Connected to MongoDB');
 });
 
-const internsRouter = require('/routes/interns');
-const foundersRouter = require('/routes/founders');
+const internRoutes = require('./routes/internRoutes');
+const founderRoutes = require('./routes/founderRoutes');
 // chal ja bhai
 
 
-app.use('/api/founders', foundersRouter);
-app.use('/api/interns', internsRouter);
+app.use('/api/interns', internRoutes);
+app.use('/api/founders', founderRoutes);
 
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
