@@ -25,7 +25,7 @@ useGSAP(
     function () {
       if (panel) {
         gsap.to(Navpanel.current, {
-            transform: 'translateY(174%)',
+            transform: 'translateY(150%)',
          
         });
        
@@ -88,8 +88,7 @@ useGSAP(
                        <a key={index} href={item.a}>{item.hi}</a>
                     ))
                 }
-
-            <a>Admin</a>
+              <a href="/head" >Admin</a>
 
         </div>
 
