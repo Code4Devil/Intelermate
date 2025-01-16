@@ -9,7 +9,7 @@ const Footer = () => {
             {/* Company Info */}
             <div className="space-y-6">
               <div className="flex items-center">
-                <img src="https://intelermate.tech/assets/intelerate%20logo-Bmy8cM2x.png" alt="Intelermate Logo" className="h-10 w-10 transition-opacity duration-300 opacity-100" loading="lazy" />
+               
                 <span className="ml-2 text-2xl font-bold text-white">Intelermate</span>
               </div>
               <p className="text-gray-400">Where Curiosity Meets Opportunity. Connecting talented students with innovative startups.</p>
