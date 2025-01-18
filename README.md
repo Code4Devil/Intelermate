@@ -1,4 +1,4 @@
-It appears that the Intelermate repository does not have a main README file yet. Here is a sample README that you can use for the repository:
+
 
 ```markdown
 # Intelermate
