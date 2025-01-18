@@ -1,5 +1,5 @@
 
-```markdown
+
 # Intelermate
 
 Intelermate is a revolutionary platform designed to bridge the gap between college students and startup owners (entrepreneurs). Acting as a broker, Intelermate enables students to gain valuable real-world experience by working as interns for startups while helping entrepreneurs find fresh, enthusiastic talent to contribute to their ventures.
