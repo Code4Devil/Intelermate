@@ -55,6 +55,3 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Your Name - Kartik Grover - itsinnocentzero@gmail.com
 
 Project Link: [https://github.com/Code4Devil/Intelermate](https://github.com/Code4Devil/Intelermate)
-```
-
-Make sure to replace placeholders like `Your Name`, `@your_twitter`, and `email@example.com` with your actual details.
